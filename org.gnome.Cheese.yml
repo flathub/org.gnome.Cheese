@@ -1,7 +1,7 @@
 id: org.gnome.Cheese
 runtime: org.gnome.Platform
 sdk: org.gnome.Sdk
-runtime-version: "3.34"
+runtime-version: "3.36"
 command: cheese
 finish-args:
   - --share=ipc
@@ -32,8 +32,8 @@ modules:
       - -Dudev=disabled
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/gnome-desktop/3.34/gnome-desktop-3.34.4.tar.xz
-        sha256: c53e72737cc21535f2fd4b72bc2fb5594741cfc3d3ce90949bc5cc07bade0cbc
+        url: https://download.gnome.org/sources/gnome-desktop/3.36/gnome-desktop-3.36.5.tar.xz
+        sha256: eea1242994109fa3f05793963ee25c3df23bc84b0f0b81f03ec3c294c27ab753
   - shared-modules/lua5.3/lua-5.3.5.json
   - name: libquvi-scripts
     sources:
