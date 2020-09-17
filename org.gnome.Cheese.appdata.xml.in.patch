@@ -1,25 +1,15 @@
+diff --git a/data/org.gnome.Cheese.appdata.xml.in b/data/org.gnome.Cheese.appdata.xml.in
+index 19c7b5d..f76c0c2 100644
 --- a/data/org.gnome.Cheese.appdata.xml.in
 +++ b/data/org.gnome.Cheese.appdata.xml.in
-@@ -37,4 +37,22 @@
+@@ -37,4 +37,10 @@
    <update_contact>davidk@gnome.org</update_contact>
    <project_group>GNOME</project_group>
    <translation type="gettext">cheese</translation>
 +  <content_rating type="oars-1.1"/>
 +  <releases>
-+    <release version="3.34.0" date="2019-09-10">
-+      <description>
-+        <p>
-+          <ul>
-+            <li>
-+              The thumbnail view now allows uers to execute commands such as open, save as, trash, or delete for one or more thumbnails using keyboard shortcuts. (esoleyman)
-+            </li>
-+            <li>
-+              Added a window that shows the various shortcuts that are available while using cheese found in the primary menu. (esoleyman)
-+            </li>
-+          </ul>
-+        </p>
-+      </description>
-+      <url>https://gitlab.gnome.org/GNOME/cheese/raw/3.34.0/NEWS</url>
++    <release version="3.38.0" date="2020-09-16">
++      <url>https://gitlab.gnome.org/GNOME/cheese/raw/3.38.0/NEWS</url>
 +    </release>
 +  </releases>
  </component>
