@@ -34,8 +34,8 @@ modules:
       - -Dudev=disabled
     sources:
       - type: archive
-        url: https://download-fallback.gnome.org/sources/gnome-desktop/41/gnome-desktop-41.0.tar.xz
-        sha256: 69cb1d3d9a10700eb66348ef1c0e66a855fc5a97ae62902df97a499da11562d2
+        url: https://download-fallback.gnome.org/sources/gnome-desktop/41/gnome-desktop-41.2.tar.xz
+        sha256: 34329eefdacad2332a6adbae538c8da6e52235c7775a908b7c32040a0753ec6a
 
   - name: libquvi-scripts
     sources:
@@ -78,5 +78,5 @@ modules:
       - -Dintrospection=false
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/cheese/41/cheese-41.0.tar.xz
-        sha256: 106f1df67e1cf41c2aa79c99bde676aec900db036cb525fa10839b06187d22f9
+        url: https://download.gnome.org/sources/cheese/41/cheese-41.1.tar.xz
+        sha256: 522960ca28730ff66439070b04418c9e0a4bb55560d75bfe08b218da2c67e547
