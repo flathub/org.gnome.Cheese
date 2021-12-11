@@ -1,7 +1,7 @@
 id: org.gnome.Cheese
 runtime: org.gnome.Platform
 sdk: org.gnome.Sdk
-runtime-version: "41"
+runtime-version: '41'
 command: cheese
 finish-args:
   - --share=ipc
@@ -34,7 +34,7 @@ modules:
       - -Dudev=disabled
     sources:
       - type: archive
-        url: https://download-fallback.gnome.org/sources/gnome-desktop/41/gnome-desktop-41.2.tar.xz
+        url: https://download.gnome.org/sources/gnome-desktop/41/gnome-desktop-41.2.tar.xz
         sha256: 34329eefdacad2332a6adbae538c8da6e52235c7775a908b7c32040a0753ec6a
         x-checker-data:
           type: gnome
@@ -73,8 +73,8 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/gnome-video-effects/0.5/gnome-video-effects-0.5.0.tar.xz
-        sha256: 4dc68e9b38fdfc1e8e0414e2d7ee83ace78efdee76f30506cc9dcd07394ad0c8
+        url: https://download.gnome.org/sources/gnome-video-effects/0.4/gnome-video-effects-0.4.3.tar.xz
+        sha256: 5a7ee0f5ade4b7d921f1b99f3b97d7d7bb830f2fef0f1daee20a7a1867708219
         x-checker-data:
           type: gnome
           name: gnome-video-effects
