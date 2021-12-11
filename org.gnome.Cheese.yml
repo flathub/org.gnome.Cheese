@@ -36,6 +36,9 @@ modules:
       - type: archive
         url: https://download-fallback.gnome.org/sources/gnome-desktop/41/gnome-desktop-41.2.tar.xz
         sha256: 34329eefdacad2332a6adbae538c8da6e52235c7775a908b7c32040a0753ec6a
+        x-checker-data:
+          type: gnome
+          name: gnome-desktop
 
   - name: libquvi-scripts
     sources:
@@ -55,6 +58,9 @@ modules:
       - type: archive
         url: https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.6.tar.xz
         sha256: c0df0f68d5cf9d7da43c81c7f13f11158358368f98c22d47722f3bd04bd3ac1c
+        x-checker-data:
+          type: gnome
+          name: totem-pl-parser
 
   - name: totem-video-thumbnailer
     buildsystem: meson
@@ -69,6 +75,9 @@ modules:
       - type: archive
         url: https://download.gnome.org/sources/gnome-video-effects/0.5/gnome-video-effects-0.5.0.tar.xz
         sha256: 4dc68e9b38fdfc1e8e0414e2d7ee83ace78efdee76f30506cc9dcd07394ad0c8
+        x-checker-data:
+          type: gnome
+          name: gnome-video-effects
 
   - shared-modules/libcanberra/libcanberra.json
 
@@ -80,3 +89,6 @@ modules:
       - type: archive
         url: https://download.gnome.org/sources/cheese/41/cheese-41.1.tar.xz
         sha256: 522960ca28730ff66439070b04418c9e0a4bb55560d75bfe08b218da2c67e547
+        x-checker-data:
+          type: gnome
+          name: cheese
