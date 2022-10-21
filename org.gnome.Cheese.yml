@@ -77,6 +77,8 @@ modules:
         sha256: 4dc68e9b38fdfc1e8e0414e2d7ee83ace78efdee76f30506cc9dcd07394ad0c8
 
   - shared-modules/libcanberra/libcanberra.json
+  
+  - shared-modules/clutter/clutter.json
 
   - name: cheese
     buildsystem: meson
