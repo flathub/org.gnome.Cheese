@@ -34,8 +34,8 @@ modules:
       - -Dudev=disabled
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/gnome-desktop/42/gnome-desktop-42.4.tar.xz
-        sha256: 1ce2c9d5067969dbe0b282ea5a9acfb8698751f03cd07e2c730240f85dc9ad25
+        url: https://download.gnome.org/sources/gnome-desktop/43/gnome-desktop-43.tar.xz
+        sha256: 3d6e153317486157596aa3802f87676414c570738f450a94a041fe8835420a69
         x-checker-data:
           type: gnome
           name: gnome-desktop
@@ -77,7 +77,7 @@ modules:
         sha256: 4dc68e9b38fdfc1e8e0414e2d7ee83ace78efdee76f30506cc9dcd07394ad0c8
 
   - shared-modules/libcanberra/libcanberra.json
-  
+
   - shared-modules/clutter/clutter.json
 
   - name: cheese
