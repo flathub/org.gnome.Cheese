@@ -93,3 +93,5 @@ modules:
           name: cheese
       - type: patch
         path: "d58071c56dc46299357c46da5ef9682d8d0abfa4.patch"
+      - type: patch
+        path: "6803cf1bbabd9c8d75b414b494d07f96fa0ff3dc.patch"
