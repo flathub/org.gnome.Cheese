@@ -1,0 +1,30 @@
+From 6803cf1bbabd9c8d75b414b494d07f96fa0ff3dc Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <travier@redhat.com>
+Date: Wed, 15 Dec 2021 16:20:55 +0000
+Subject: [PATCH] appdata: Update for 41.0 & 41.1 releases
+
+Needed for automatic version reporting by Flatpak and Snap
+---
+ data/org.gnome.Cheese.appdata.xml.in | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/data/org.gnome.Cheese.appdata.xml.in b/data/org.gnome.Cheese.appdata.xml.in
+index 9ab114c2..dfc408d3 100644
+--- a/data/org.gnome.Cheese.appdata.xml.in
++++ b/data/org.gnome.Cheese.appdata.xml.in
+@@ -39,6 +39,12 @@
+   <translation type="gettext">cheese</translation>
+   <content_rating type="oars-1.1"/>
+   <releases>
++    <release version="41.1" date="2021-11-01">
++      <url>https://gitlab.gnome.org/GNOME/cheese/raw/41.1/NEWS</url>
++    </release>
++    <release version="41.0" date="2021-09-20">
++      <url>https://gitlab.gnome.org/GNOME/cheese/raw/41.0/NEWS</url>
++    </release>
+     <release version="3.38.0" date="2020-09-16">
+       <url>https://gitlab.gnome.org/GNOME/cheese/raw/3.38.0/NEWS</url>
+     </release>
+-- 
+GitLab
+
