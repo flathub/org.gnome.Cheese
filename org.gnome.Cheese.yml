@@ -8,8 +8,9 @@ finish-args:
   - --socket=fallback-x11
   - --socket=pulseaudio
   - --socket=wayland
-  - --device=all
+  - --device=dri
   - --metadata=X-DConf=migrate-path=/org/gnome/Cheese/
+  - --filesystem=xdg-run/pipewire-0
   - --filesystem=xdg-pictures
   - --filesystem=xdg-videos
 cleanup:
