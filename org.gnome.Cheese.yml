@@ -77,7 +77,7 @@ modules:
         sha256: 4dc68e9b38fdfc1e8e0414e2d7ee83ace78efdee76f30506cc9dcd07394ad0c8
 
   - shared-modules/libcanberra/libcanberra.json
-  
+
   - shared-modules/clutter/clutter.json
 
   - name: cheese
@@ -86,12 +86,10 @@ modules:
       - -Dintrospection=false
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/cheese/41/cheese-41.1.tar.xz
-        sha256: 522960ca28730ff66439070b04418c9e0a4bb55560d75bfe08b218da2c67e547
+        url: https://download.gnome.org/sources/cheese/43/cheese-43.0.tar.xz
+        sha256: 74574c4a3c327327f1a2d6d0b3f937be2afb07a6159b6d78db9c192de6667f0b
         x-checker-data:
           type: gnome
           name: cheese
       - type: patch
-        path: "d58071c56dc46299357c46da5ef9682d8d0abfa4.patch"
-      - type: patch
-        path: "6803cf1bbabd9c8d75b414b494d07f96fa0ff3dc.patch"
+        path: 66.patch
