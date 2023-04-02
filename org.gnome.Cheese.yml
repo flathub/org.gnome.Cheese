@@ -91,5 +91,6 @@ modules:
         x-checker-data:
           type: gnome
           name: cheese
+          is-important: true
       - type: patch
         path: 66.patch
