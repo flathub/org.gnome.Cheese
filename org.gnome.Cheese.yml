@@ -86,8 +86,8 @@ modules:
       - -Dintrospection=false
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/cheese/43/cheese-43.0.tar.xz
-        sha256: 74574c4a3c327327f1a2d6d0b3f937be2afb07a6159b6d78db9c192de6667f0b
+        url: https://download.gnome.org/sources/cheese/44/cheese-44.0.tar.xz
+        sha256: df27ff69b208f4dcfb7d86ff620a93f9384fdc6fe105a3f4ae93b438efabf45c
         x-checker-data:
           type: gnome
           name: cheese
