@@ -1,7 +1,7 @@
 id: org.gnome.Cheese
 runtime: org.gnome.Platform
 sdk: org.gnome.Sdk
-runtime-version: '44'
+runtime-version: '45'
 command: cheese
 finish-args:
   - --share=ipc
